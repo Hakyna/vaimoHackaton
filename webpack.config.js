@@ -7,9 +7,10 @@ module.exports = {
     resolve: {
         root: __dirname,
         alias: {
-            DataTable: 'src/components/DataTable.jsx'
+            DataTable: 'src/components/DataTable.jsx',
+            RequestData: 'api/DataRequest.jsx'
         },
-        extensions: ['', '.js', '.jsx']
+        extensions: ['', '.js', '.jsx', '.json']
     },
     module: {
         loaders: [
