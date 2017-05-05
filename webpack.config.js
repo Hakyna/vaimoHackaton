@@ -8,7 +8,8 @@ module.exports = {
         root: __dirname,
         alias: {
             DataTable: 'src/components/DataTable.jsx',
-            TableRow: 'src/components/TableRow.jsx'
+            TableRow: 'src/components/TableRow.jsx',
+            RequestData: 'api/DataRequest.jsx'
         },
         extensions: ['', '.js', '.jsx']
     },

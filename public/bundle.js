@@ -19757,7 +19757,6 @@
 	'use strict';
 
 	var React = __webpack_require__(1);
-	var TableRow = __webpack_require__(160);
 
 	var DataTable = React.createClass({
 	    displayName: 'DataTable',
@@ -19766,69 +19765,12 @@
 	        return React.createElement(
 	            'div',
 	            null,
-	            React.createElement(
-	                'span',
-	                null,
-	                'Table starts'
-	            ),
-	            React.createElement(
-	                'table',
-	                null,
-	                React.createElement(
-	                    'thead',
-	                    null,
-	                    React.createElement(
-	                        'tr',
-	                        null,
-	                        React.createElement(
-	                            'th',
-	                            null,
-	                            'th1'
-	                        ),
-	                        React.createElement(
-	                            'th',
-	                            null,
-	                            'th2'
-	                        )
-	                    )
-	                ),
-	                React.createElement(
-	                    'tbody',
-	                    null,
-	                    React.createElement(TableRow, null)
-	                )
-	            )
+	            'qqq'
 	        );
 	    }
 	});
 
 	module.exports = DataTable;
-
-/***/ }),
-/* 160 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	var React = __webpack_require__(1);
-
-	var TableRow = React.createClass({
-	    displayName: 'TableRow',
-
-	    render: function render() {
-	        return React.createElement(
-	            'tr',
-	            null,
-	            React.createElement(
-	                'td',
-	                null,
-	                'as'
-	            )
-	        );
-	    }
-	});
-
-	module.exports = TableRow;
 
 /***/ })
 /******/ ]);
