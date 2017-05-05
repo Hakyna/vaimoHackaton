@@ -1,2 +1,9 @@
 var React = require('react');
-var ReactDOM = require('react-dom');
+
+var DataTable = React.createClass({
+    render: function(){
+        return(<table></table>);
+    }
+});
+
+module.exports = DataTable;

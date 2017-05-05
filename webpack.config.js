@@ -1,5 +1,5 @@
-server.jsmodule.exports = {
-    entry: './app/app.jsx',
+module.exports = {
+    entry: './src/app.jsx',
     output: {
       path: __dirname,
         filename: './public/bundle.js'
@@ -7,14 +7,7 @@ server.jsmodule.exports = {
     resolve: {
         root: __dirname,
         alias: {
-            Main: 'app/components/Main.jsx',
-            Nav: 'app/components/Nav.jsx',
-            Weather: 'app/components/Weather.jsx',
-            About: 'app/components/About.jsx',
-            Examples: 'app/components/Examples.jsx',
-            WeatherForm: 'app/components/WeatherForm.jsx',
-            WeatherMessage: 'app/components/WeatherMessage.jsx',
-            OpenWeatherMap: 'app/api/OpenWeatherMap.jsx'
+            DataTable: 'src/components/DataTable.jsx'
         },
         extensions: ['', '.js', '.jsx']
     },
