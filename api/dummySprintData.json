@@ -4,12 +4,11 @@
         {
             "fields": {
                 "labels": [
-                    "Ubuntu/PHP7",
-                    "need info"
+                    "Ubuntu/PHP7"
                 ]
             },
             "status": {
-                "name": "In Progress"
+                "name": "Code Review"
             }
         },
         {

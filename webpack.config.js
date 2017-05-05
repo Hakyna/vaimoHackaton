@@ -7,7 +7,8 @@ module.exports = {
     resolve: {
         root: __dirname,
         alias: {
-            DataTable: 'src/components/DataTable.jsx'
+            DataTable: 'src/components/DataTable.jsx',
+            TableRow: 'src/components/TableRow.jsx'
         },
         extensions: ['', '.js', '.jsx']
     },
