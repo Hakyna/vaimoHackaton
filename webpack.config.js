@@ -9,6 +9,7 @@ module.exports = {
         alias: {
             DataTable: 'src/components/DataTable.jsx',
             TableRow: 'src/components/TableRow.jsx',
+            DataButton: 'src/components/DataButton.jsx',
             RequestData: 'api/DataRequest.jsx'
         },
         extensions: ['', '.js', '.jsx']

@@ -1,10 +1,8 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-var DataTable = require('DataTable');
+var DataButton = require('DataButton');
 
 ReactDOM.render(
-    <DataTable>
-
-    </DataTable>,
+    <DataButton />,
     document.getElementById('app')
 );

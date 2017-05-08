@@ -1,46 +1,25 @@
 var React = require('react');
-var Sprints = [
-    {
-        "fields": {
-            "labels": [
-                "Ubuntu/PHP7"
-            ]
-        },
-        "status": {
-            "name": "Code Review"
-        }
-    },
-    {
-        "fields": {
-            "labels": [
-                "Ubuntu/PHP7"
-            ]
-        },
-        "status": {
-            "name": "Code Review"
-        }
-    },
-    {
-        "fields": {
-            "labels": [
-                "Ubuntu/PHP7"
-            ]
-        },
-        "status": {
-            "name": "Code Review"
-        }
-    }
-];
-
-
 
 var TableRow = React.createClass({
-    var SprintList;
-    render: function(){
-        return(
-            <tr>
-                <td>as</td>
-            </tr>
+     getInitialState: function() {
+         return {items: []}
+     },
+
+    render: function() {
+         var issues = this.props.issues.issues;
+        var listItems = issues.map(function (item) {
+            return (
+                <tr>
+                    <td>{item.status.name}</td>
+                    <td>{item.fields.labels}</td>
+                </tr>
+            );
+        });
+
+        return (
+            <div>
+                {listItems}
+            </div>
         );
     }
 });

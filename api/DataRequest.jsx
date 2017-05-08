@@ -1,9 +1,8 @@
 var axios = require('axios');
-//dummy data
-
 
 const REQUEST_URL = '';
 
+//dummy data
 module.exports = {
     getData: function(dummyData) {
         //var encodedLocation = decodeURIComponent(location);
